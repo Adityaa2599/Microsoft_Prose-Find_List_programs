@@ -1,0 +1,13 @@
+﻿using semantics FindOperations.Semantics;
+using learners FindOperations.WitnessFunctions;
+
+language Findops;
+
+@complete feature double Score = FindOperations.RankingScore;
+
+@input List<int> lst;
+
+@start int op := exp;
+int exp := Add(exp,exp) | Mul(exp,exp) | Div(el,el) | el ;
+int el := Element(lst, pos);
+int pos;
