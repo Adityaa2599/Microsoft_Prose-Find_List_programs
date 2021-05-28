@@ -1,5 +1,5 @@
 # Microsoft_Prose-Find_List_programs
-Given a list of positive integers and a desired output, the given code generates all the programmes that can give the desired output by operating on the given list according to the DSL specified below. Most of the code is accompanied with explanations and justifications through comments. However, the important points and overview of the code is as follows:
+Given a list of positive integers and a desired output, the given code generates all the programs that can give the desired output by operating on the given list according to the DSL specified below. Most of the code is accompanied with explanations and justifications through comments. However, the important points and overview of the code is as follows:
 
 ## Details of DSL
 **Input** : A list of positive integers. For ex- {1,2,3,4}
