@@ -47,22 +47,22 @@ The score is calculated by the method of **Calculation from recursive values**. 
 And the function Element returns a value less than 1. This ensures that on successive multiplication( longer the program, the more number of times the succesive multiplication of values less than 1), the score of the program keeps on decreasing. Hence shorter programs give out the highest score and hence are ranked the highest.
 
 **Note:**
-**The elements in the array should not be greater than 10000**. 
-For changing the upper limit, user would have to change the upper limit of for loop(in the github code, it's set as 10000) in the Div() witness function of operand1{Function name:  Witnessdivop1(GrammarRule  rule, ExampleSpec  spec) } in file WitnessFunctions.cs
+**The elements in the array should not be greater than 1000**. 
+For changing the upper limit, user would have to change the upper limit of for loop(in the github code, it's set as 1000) in the Div() witness function of operand1{Function name:  Witnessdivop1(GrammarRule  rule, ExampleSpec  spec) } in file WitnessFunctions.cs
 
 
                 if (output == 0)
                     return null;
                 else
                 {
-                    for (int i = 2; i <= 10000/output; i++)
+                    for (int i = 2; i <= 1000/output; i++)
                     {
                         possible.Add(output * i);
                     }
                 }
 
 
-As the upper limit increases, the domain of operands also increase in the witness function and this affects speed of program synthesis. This can vary according to computation power of individual pc. My pc was able to handle the upper limit till 1000000. Upon running with the upper limit as 1000, the programs were generated in 1 second. And upon running with upper limit as 1000000 it took 10 seconds to generate the programs. Hence the user should change the upper limit in accordance with speed and upper limit requirements. 
+As the upper limit increases, the domain of operands also increase in the witness function and this affects speed of program synthesis. This can vary according to computation power of individual pc. My pc was able to handle the upper limit till 1000000. Upon running with the upper limit as 1000, the programs were generated in 1 second. And upon running with upper limit as 1000000 it took 10 seconds to generate the programs. Hence the user should change the upper limit in accordance with speed and upper limit requirements. For the purpose of testing quickly against different input-outputs, I have kept the value 1000.
 
 
 ## Testing and Execution
