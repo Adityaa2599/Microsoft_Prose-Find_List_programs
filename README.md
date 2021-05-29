@@ -15,12 +15,12 @@ Given a list of positive integers and a desired output, the given code generates
 
 ## File Details
 
- - FindOps.grammar : Defines the grammar of the DSL (Located in FindOperations/synthesis/grammar/) 
- - Semantics.cs : Contains the semantical definitions of all the functions in the DSL. (Located in FindOperations/synthesis/)
- - WitnessFunctions.cs : Contains the declaration of all the witness functions for each of the parameters of the functions. (Located in FindOperations/synthesis/)
- - RankingScore.cs : Defines the score features. (Located in FindOperations/synthesis/)
- - Program.cs : Can be run for interaction with the user. (Located in FindOperations/synthesis/)
- - FindOpsTest.cs : Contains all the testcases which were passed thus verifying the accuracy of the code. (Located in FindOperations.Tests/) .
+ - FindOps.grammar : Defines the grammar of the DSL (Located in **FindOperations/synthesis/grammar/**) 
+ - Semantics.cs : Contains the semantical definitions of all the functions in the DSL. (Located in **FindOperations/synthesis/**)
+ - WitnessFunctions.cs : Contains the declaration of all the witness functions for each of the parameters of the functions. (Located in **FindOperations/synthesis/**)
+ - RankingScore.cs : Defines the score features. (Located in **FindOperations/synthesis/**)
+ - Program.cs : Can be run for interaction with the user. (Located in **FindOperations/synthesis/**)
+ - FindOpsTest.cs : Contains all the testcases which were passed thus verifying the accuracy of the code. (Located in **FindOperations.Tests/**) .
 
 
 ## Grammar
