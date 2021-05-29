@@ -27,7 +27,6 @@ Given a list of positive integers and a desired output, the given code generates
 Grammar is defined in a recursive manner.
 
 ## Semantics
-For division, null is returned when operand2 == 0.
 
 ## Witness Functions
 In case of Add(operand1, operand2), Multiply(operand1, operand2) and Divide(operand1, operand2), first the witness functions for operand1 for each of the operations are defined seperately. For operand2 of each function, Conditional witness functions are generated for each function, where the output of operand2 depends upon the output given in the ExampleSpec and operand1.
