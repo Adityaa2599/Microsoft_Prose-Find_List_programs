@@ -116,7 +116,7 @@ namespace FindOperations
                     return null;
                 else
                 {
-                    for (int i = 2; i <= 10000/output; i++)
+                    for (int i = 2; i <= 1000/output; i++)
                     {
                         possible.Add(output * i);
                     }
